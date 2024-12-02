@@ -1,0 +1,3 @@
+Data structures:
+Linear : Array, Linked List, Stack, Queue
+Non linear : Tree , graph
