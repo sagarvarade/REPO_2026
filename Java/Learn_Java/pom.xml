@@ -12,7 +12,7 @@
 	<artifactId>java</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>java</name>
+    <name>Learn_Java</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -23,7 +23,8 @@
 	</developers>
     <modules>
         <module>DSA</module>
-    </modules>
+		<module>ProblemsSolved</module>
+	</modules>
     <scm>
 		<connection/>
 		<developerConnection/>
