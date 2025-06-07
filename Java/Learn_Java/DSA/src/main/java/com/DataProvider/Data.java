@@ -17,7 +17,7 @@ public final class Data {
         return listOfNumbers;
     }
 
-    public static List<Integer> getRandomNumbers(int count,int inRange) {
+    public static List<Integer> getRandomNumbers(int count, int inRange) {
         List<Integer> listOfNumbers = new ArrayList<Integer>();
         for (int i = 0; i < count; i++) {
             Random random = new Random();
@@ -76,9 +76,9 @@ public final class Data {
             int randomSurName = random.nextInt(1000);
             int randomSalary = random.nextInt(10000);
             int randomDepts = random.nextInt(6);
-            int RandomAge =random.nextInt(100);
-            int randomGender=random.nextInt(2);
-            listOfNames.add(new Employee(names[randomName], surnames[randomSurName],randomSalary,departments[randomDepts],getRandomDate(),RandomAge,gender[randomGender],cities[randomName]));
+            int RandomAge = random.nextInt(100);
+            int randomGender = random.nextInt(2);
+            listOfNames.add(new Employee(names[randomName], surnames[randomSurName], randomSalary, departments[randomDepts], getRandomDate(), RandomAge, gender[randomGender], cities[randomName]));
         }
         return listOfNames;
     }
@@ -90,9 +90,9 @@ public final class Data {
         return LocalDate.ofEpochDay(randomDay);
     }
 
-    private final static String[] departments = new String[] { "IT", "Physics", "HR", "Sales", "Infra", "On-site"};
-    private final static String[] gender = new String[] { "MALE", "FEMALE"};
-    private final static String[] cities=new String[] {"Autumnvale",
+    private final static String[] departments = new String[]{"IT", "Physics", "HR", "Sales", "Infra", "On-site"};
+    private final static String[] gender = new String[]{"MALE", "FEMALE"};
+    private final static String[] cities = new String[]{"Autumnvale",
             "Amethyst Harbor",
             "Arbor Flats",
             "Aqua Vista",
@@ -1394,7 +1394,7 @@ public final class Data {
             "Zirconwing Haven",
     };
 
-    private final static String[] names = new String[] { "Naomi", "Shannon", "Eliel", "Ahmed", "Jolie", "Morris",
+    private final static String[] names = new String[]{"Naomi", "Shannon", "Eliel", "Ahmed", "Jolie", "Morris",
             "Christian", "Burke", "Vera", "Blanchard", "Adler", "Henderson", "Maria", "Horne", "Zev", "Guerrero",
             "Margot", "Valencia", "Dax", "Livingston", "Milena", "Camacho", "Tatum", "Marsh", "Adelina", "Atkins",
             "Cason", "Beasley", "Jaylah", "Hancock", "Rex", "Sims", "Lena", "McCarty", "Blaise", "Sosa", "Cassandra",
@@ -1582,8 +1582,8 @@ public final class Data {
             "Samuel", "Peters", "Leila", "Schultz", "Cody", "Huerta", "Dulce", "Sparks", "Drake", "Cochran", "Alma",
             "Delgado", "Colt", "Manning", "Jennifer", "Bernal", "Eithan", "Costa", "Robin", "Day", "Kayson", "Joseph",
             "Gracelynn", "Todd", "Baylor", "Arnold", "Finley", "Horn", "Wilson", "Hinton", "Jaelynn", "Berg", "Cayson",
-            "Pineda", "Nola", "Lim", "Cal", "Foley" };
-    private final static String[] surnames = new String[] { "Castaneda", "Gutierrez", "Hanna", "Colon", "Brock",
+            "Pineda", "Nola", "Lim", "Cal", "Foley"};
+    private final static String[] surnames = new String[]{"Castaneda", "Gutierrez", "Hanna", "Colon", "Brock",
             "Cervantes", "Conley", "Fowler", "Rosales", "Harrington", "Brennan", "Torres", "Drake", "Stephens",
             "Whitaker", "Booker", "Burton", "Bolton", "Neal", "Ramsey", "Garrison", "Matthews", "Marsh", "Schultz",
             "Morrison", "Kim", "Houston", "Hayden", "Love", "Mercado", "Petersen", "Gibson", "Berger", "Stevens",
@@ -1679,6 +1679,6 @@ public final class Data {
             "Stewart", "Moss", "Tapia", "Carey", "Rodriguez", "Solis", "Espinoza", "Thornton", "Caldwell", "Maxwell",
             "Ferrell", "Farmer", "Brooks", "Buck", "Gill", "Cruz", "Turner", "Owen", "Jimenez", "Wiggins", "Liu",
             "Davidson", "Suarez", "Rich", "Rivas", "Dominguez", "Lopez", "Coffey", "Huber", "Velazquez", "Conrad",
-            "Burgess", "Stephenson", "Davila", "Porter", "Knox" };
+            "Burgess", "Stephenson", "Davila", "Porter", "Knox"};
 
 }
