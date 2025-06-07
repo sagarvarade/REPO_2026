@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bdbb9b9-113b-42aa-967f-4b8a2db9df2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Learn_Java/DSA/src/main/java/com/java/A_01_Array/ArrayApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learn_Java/DSA/src/main/java/com/java/A_02_SinglyLinkedList/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learn_Java/DSA/src/main/java/com/java/A_02_SinglyLinkedList/SLList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learn_Java/DSA/src/main/java/com/java/A_02_SinglyLinkedList/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/Learn_Java/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Learn_Java/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Learn_Java/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/DSA/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Learn_Java/DSA/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/DSA/src/main/java/com/java/A_Array/ArrayApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/DSA/src/main/java/com/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Learn_Java/DSA/src/main/java/com/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/DSA/src/main/resources/Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Learn_Java/DSA/src/main/resources/Notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/Learn_Java/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/Learn_Java/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Learn_Java/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8bdbb9b9-113b-42aa-967f-4b8a2db9df2e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/REPO_2026/Java"
+    "last_opened_file_path": "E:/REPO_2026/Java/Learn_Java/DSA"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

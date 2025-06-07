@@ -1,4 +1,4 @@
-package com.java;
+package com.DSA;
 
 public class MathUtils {
     public int add(int a,int b){
@@ -20,4 +20,9 @@ public class MathUtils {
     public int mod(int a,int b){
         return  a%b;
     }
+
+    public double computeCircleArea(double radius){
+        return  Math.PI*radius*radius;
+    }
+
 }

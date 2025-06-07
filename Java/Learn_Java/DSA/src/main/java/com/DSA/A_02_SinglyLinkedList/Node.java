@@ -1,4 +1,4 @@
-package com.java.A_02_SinglyLinkedList;
+package com.DSA.A_02_SinglyLinkedList;
 
 public  class Node{
     public int value;

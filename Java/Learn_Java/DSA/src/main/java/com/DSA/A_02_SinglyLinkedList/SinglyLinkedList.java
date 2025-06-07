@@ -1,4 +1,4 @@
-package com.java.A_02_SinglyLinkedList;
+package com.DSA.A_02_SinglyLinkedList;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package com.java.A_01_Array;
+package com.DSA.A_01_Array;
 
 import java.util.Arrays;
 
@@ -21,13 +21,13 @@ public class ArrayApp {
         // findSecondMaxValue(new int[]{1,2,3,4,5,6,7,8,8});
         // moveZerosToEnd(new int[]{8,1,0,2,1,0,3},7);
         // resizeArray(new int[]{8,1,0,2,1,0,3},15);
-        System.out.println(checkStringIsPalindrom("madamm"));
+        System.out.println(checkStringIsPalindrome("madamm"));
     }
 
-    private static boolean checkStringIsPalindrom(String str) {
-        char [] charArray=str.toCharArray();
+    private static boolean checkStringIsPalindrome(String string) {
+        char [] charArray=string.toCharArray();
         int start=0;
-        int end=str.length()-1;
+        int end=string.length()-1;
         while (start<end){
             if(charArray[start]!=charArray[end]){
                 return false;

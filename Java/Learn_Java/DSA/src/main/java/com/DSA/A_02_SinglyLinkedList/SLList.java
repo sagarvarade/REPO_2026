@@ -1,4 +1,4 @@
-package com.java.A_02_SinglyLinkedList;
+package com.DSA.A_02_SinglyLinkedList;
 
 public class SLList {
     public Node head;
@@ -7,12 +7,28 @@ public class SLList {
     public static void main(String[] args) {
         SLList sList=new SLList();
         sList.createSinglyLinkedList(10);
-        System.out.println(sList.head.value);
+        // System.out.println(sList.head.value);
         sList.insertInLinkedList(20,2);
         sList.insertInLinkedList(30,3);
-        System.out.println(sList.head.next.value);
+        //  System.out.println(sList.head.next.value);
         sList.print();
         sList.traverseList();
+        sList.search(20);
+    }
+
+    private void search(int nodeValue) {
+        if(head!=null){
+            Node tempNode=head;
+            for(int i=0;i<size;i++){
+                if(tempNode.value==nodeValue){
+                    System.out.println(nodeValue+" found at location : "+i+"  "+tempNode.value);
+                    return;
+                }
+                tempNode= tempNode.next;
+            }
+        }else{
+            System.out.println("SLL is empty.");
+        }
     }
 
     private void traverseList() {

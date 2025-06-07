@@ -1,0 +1,12 @@
+Fundametals of database engineering :
+1. What is transaction
+2. Atomicity
+3. Isolation
+4. Consistancy
+5. Durability
+
+Phantom reads
+Serializabe vs Repeatable reads
+Eventual consistancy
+
+ 

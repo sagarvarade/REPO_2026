@@ -23,7 +23,6 @@
 	</developers>
     <modules>
         <module>DSA</module>
-		<module>ProblemsSolved</module>
 		<module>LJunit</module>
 	</modules>
     <scm>
